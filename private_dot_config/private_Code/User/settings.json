@@ -1,31 +1,33 @@
 {
-    "terminal.integrated.commandsToSkipShell": [
-        "language-julia.interrupt"
-    ],
-    "julia.symbolCacheDownload": true,
-    "julia.enableTelemetry": true,
-    "gitlens.gitCommands.skipConfirmations": [
-        "fetch:command",
-        "stash-push:command",
-        "switch:command",
-        "tag-create:command"
-    ],
-    "[c]": {
-        "editor.defaultFormatter": "xaver.clang-format"
-    },
-    "editor.rulers": [
-        80
-    ],
-    "svelte.enable-ts-plugin": true,
-    "editor.useTabStops": false,
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "clang-format.style": "LLVM",
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8",
         "editor.tabSize": 4
     },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "clang-format.style": "LLVM",
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "editor.rulers": [
+        80,
+        120
+    ],
     "editor.tabSize": 2,
-    "window.zoomLevel": -1,
+    "editor.useTabStops": false,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "language-julia.interrupt",
+        "stash-push:command",
+        "switch:command",
+        "tag-create:command"
+    ],
+    "julia.enableTelemetry": true,
+    "julia.symbolCacheDownload": true,
+    "svelte.enable-ts-plugin": true,
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "window.zoomLevel": -1
 }
