@@ -143,3 +143,6 @@ source "$OSH"/oh-my-bash.sh
 # ASDF source + completions
 . "$HOME/.asdf/asdf.sh"
 . "$HOME/.asdf/completions/asdf.bash"
+
+# Uninspirational quote
+. "$HOME/echo_random_quote.sh"
