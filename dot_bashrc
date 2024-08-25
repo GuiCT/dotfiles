@@ -150,3 +150,6 @@ source "$OSH"/oh-my-bash.sh
 # ZOxide and alias for cd
 eval "$(zoxide init bash)"
 alias cd="z"
+
+# Tmux execute
+[ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}
