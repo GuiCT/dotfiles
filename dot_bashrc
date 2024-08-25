@@ -146,3 +146,7 @@ source "$OSH"/oh-my-bash.sh
 
 # Uninspirational quote
 . "$HOME/echo_random_quote.sh"
+
+# ZOxide and alias for cd
+eval "$(zoxide init bash)"
+alias cd="z"
