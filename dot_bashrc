@@ -140,10 +140,6 @@ source "$OSH"/oh-my-bash.sh
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
 
-# ASDF source + completions
-. "$HOME/.asdf/asdf.sh"
-. "$HOME/.asdf/completions/asdf.bash"
-
 # Uninspirational quote
 . "$HOME/echo_random_quote.sh"
 
@@ -153,3 +149,4 @@ alias cd="z"
 
 # Tmux execute
 [ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}
+eval "$(~/.local/bin/mise activate bash)"
